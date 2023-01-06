@@ -11,7 +11,38 @@
 <?php include('templates/header.php')?>
 <body>
     <section>
-        <div style="background-image: url(img/nosotros/background-encabezado.jpg); height: 706px; background-size: cover; background-position: center center;"></div>
+        <div style="background-image: url(img/nosotros/background-nosotros.jpg); height: 706px; background-size: cover; background-position: center center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 p-5">
+                        <img src="img/nosotros/imagen-1-encabezado-sin-contorno.png" style="width: 388px;" alt="">
+                        <img src="img/nosotros/imagen-2-encabezado-con-contorno.png" style="width: 388px; position: absolute; margin-left: -173px; margin-top: 166px;" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="p-5">
+                            <h2 class="text-white text-center fw-bold">CLOUD TRAVEL</h2>
+                            <p class="text-white text-justify">Empresa 100% mexicana y conformada por un grupo amplio de apasionados
+                                en tecnología que justamente hace 1 año, tras ver el desarrollo de la conocida
+                                BIG DATA, y también considerando que el turismoha tomado fuerza al paso de
+                                los años; quisimos crear una poderosa herramienta para todas aquellas
+                                pequeñas, medianas y grandes agencias turísticas o tour operadores (as) que
+                                desean expandir sus horizontes en el sobresaliente mundo digital. <br><br>
+                                Hoy, gracias a la confianza de más de 4 milmiembros activos, hemos dado paso
+                                a nuevas y poderosas herramientas que nos permiten garantizarte, un rotundo
+                                éxito en el ramo turístico obteniendo lo más, por lo menos; es decir, invierte
+                                poco y obtendrás grandes beneficios que puedes conocer en aquí abajo:
+                            </p>
+                            <div class="container text-center">
+                                <button type="button" class="btn btn-lg btn-amarillo">CONOCE CÓMO FUNCIONA</button>
+                                <button type="button" class="btn btn-vere btn-lg">¡ADQUIÉRELO YA!</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
         <div class="container">
             <div style="background: #0d2ad5; background: #0d2ad5; height: 10px; margin-top: -5px;"></div>
         </div>
@@ -108,45 +139,54 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="height: 530px;">
+        <div class="container">
             <div class="row h-100">
-                <div class="col-md-4 p-4 h-100" style="padding-bottom: 0px !important;">
-                    <h3 class="text-center">Misión</h3>
-                    <p>
-                        Permitir a las agencias de viajes de nuestro México,
-                        aprovechar al máximo todos los beneficios que ofrece la
-                        tecnología web mediante un sistema que les ofrece el
-                        control total de su portal web, a la vez que les permita
-                        conservar bien administradas sus reservaciones.
-                    </p>
-                    <div class="bg-azul" style="height: 55%;"></div>
+                <div class="col-md-4 p-4 d-flex align-items-end" style="padding-bottom: 0px !important;">
+                    <div>
+                        <h3 class="text-center">Misión</h3>
+                        <p>
+                            Permitir a las agencias de viajes de nuestro México,
+                            aprovechar al máximo todos los beneficios que ofrece la
+                            tecnología web mediante un sistema que les ofrece el
+                            control total de su portal web, a la vez que les permita
+                            conservar bien administradas sus reservaciones.
+                        </p>
+                        <img class="bar-color" src="img/nosotros/barra-mision.png" alt="">
+                    </div>
+                    
                 </div>
-                <div class="col-md-4 p-4 h-100" style="padding-bottom: 0px !important;">
-                    <h3 class="text-center">Visión</h3>
-                    <p>
-                        Ser una herramienta clave para toda
-                        agencia turística o tour operador (a) que
-                        quiera trascender en la industria del
-                        turismo a través de la tecnología sin
-                        descapitalizar sus finanzas.
-                    </p>
-                    <div style="height: 69%; background: #009a21;"></div>
+                <div class="col-md-4 p-4 d-flex align-items-end" style="padding-bottom: 0px !important;">
+                    <div>
+                        <h3 class="text-center">Visión</h3>
+                        <p>
+                            Ser una herramienta clave para toda
+                            agencia turística o tour operador (a) que
+                            quiera trascender en la industria del
+                            turismo a través de la tecnología sin
+                            descapitalizar sus finanzas.
+                        </p>
+                        <img class="bar-color" src="img/nosotros/barra-vision.png" alt="">
+                    </div>
+                    
                 </div>
-                <div class="col-md-4 p-4 h-100" style="padding-bottom: 0px !important;">
-                    <h3 class="text-center">Valores</h3>
-                    <p>
-                    - HONESTIDAD. <br>
-                    - CALIDAD. <br>
-                    - PUNTUALIDAD. <br>
-                    - COMPROMISO. <br>
-                    - PASIÓN. <br>
-                    - COMPETITIVIDAD. <br>
-                    - TRABAJO EN EQUIPO. <br>
-                    - ORIENTACIÓN AL CLIENTE. <br>
-                    - RESPONSABILIDAD SOCIAL. <br>
-                    - RESOLUCIÓN DE PROBLEMAS. <br>
-                    </p>
-                    <div style="height: 41%; background: red;"></div>
+                <div class="col-md-4 p-4 d-flex align-items-end" style="padding-bottom: 0px !important;">
+                    <div>
+                        <h3 class="text-center">Valores</h3>
+                        <p>
+                        - HONESTIDAD. <br>
+                        - CALIDAD. <br>
+                        - PUNTUALIDAD. <br>
+                        - COMPROMISO. <br>
+                        - PASIÓN. <br>
+                        - COMPETITIVIDAD. <br>
+                        - TRABAJO EN EQUIPO. <br>
+                        - ORIENTACIÓN AL CLIENTE. <br>
+                        - RESPONSABILIDAD SOCIAL. <br>
+                        - RESOLUCIÓN DE PROBLEMAS. <br>
+                        </p>
+                        <img class="bar-color" src="img/nosotros/barra-valores.png" alt="">
+                    </div>
+                        
                 </div>
             </div>
         </div>

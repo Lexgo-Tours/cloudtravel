@@ -11,7 +11,7 @@
 <?php include('templates/header.php')?>
 <body>
     <section>
-        <div class="d-flex justify-content-center align-items-center" style="background-image: url(img/precios/imagen-completa-encabezado.jpg); height: 836px; background-size: cover; background-position: center center;">
+        <div class="d-flex justify-content-center align-items-center" style="background-image: url('img/precios/imagen-completa-encabezado.jpg'); height: 836px; background-size: cover; background-position: center center;">
            
         </div>
         <div class="container">
@@ -37,7 +37,7 @@
                 </p>
                 <div class="w-100 text-center"><p>¡Gracias por tu confianza! <br><br>Eququipo CLOUDTravel</p></div>
             </div>
-            <div class="col-md-5" style="background-image: url(img/precios/imagen-nuestro-compromiso.jpg); background-size: cover; background-position: center;">
+            <div class="col-md-5" style="background-image: url('img/precios/imagen-nuestro-compromiso.jpg'); background-size: cover; background-position: center;">
                 
             </div>
         </div>

@@ -23,6 +23,57 @@
 
     <section class="cont">
         <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Crea tu propia agencia</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Obten tu sitio web</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Control total de tu agencia</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Consigue más clientes</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Crea alianzas comerciales</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 sombra m-3" style="border-radius: 9px;">
+                            <img class="check mb-3" src="img/icon.png" alt="">
+                            <h3>Ofrece las mejores ofertas</h3>
+                            <!--p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, mollitia quam! Aperiam?</p-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cont">
+        <div class="container">
             <div class="titulo1 d-flex d-flex justify-content-center mb-5">
                 <img class="check" src="img/palomita.png" alt="">
                 <h2 class="mt-2">UNA HERRAMIENTA PODEROSA</h2>
@@ -51,7 +102,7 @@
         </div>
     </section>
 
-    <section class="cont">
+    <section class="">
         <div class="">
             <div class="titulo1 d-flex d-flex justify-content-center mb-5">
                 <img class="check" src="img/palomita.png" alt="">
@@ -128,9 +179,9 @@
         </div>
     </section>
 
-    <section class="cont">
+    <section class="">
         <div class="">
-            <div class="titulo1 d-flex d-flex justify-content-center mb-5">
+            <div class="titulo1 d-flex d-flex justify-content-center p-3">
                 <img class="check" src="img/palomita.png" alt="">
                 <h2 class="mt-2">CON COBERTURA EN MÉXICOY EL MUNDO</h2>
             </div>
@@ -142,7 +193,30 @@
                 <img class="check" src="img/palomita.png" alt="">
                 <h2 class="mt-2 text-white">SERVICIO GARANTIZADO</h2>
             </div>
-            <img class="w-100" src="img/servicio-garantizado.jpg" alt="">
+            <div class="w-100" style="background-image: url(img/fondo-servicio-garantizado.jpg); height: 600px; background-size: contain; background-position: center;">
+                <div class="row w-100 p-0 m-0 h-100">
+                    <div class="col-md-5 d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center">
+                            <img class="me-3" src="img/circulo-comparativo-porcentajes.png"  style="width: 170px !important;" alt="">
+                           <div>
+                                <div class="d-flex mb-2">
+                                    <div class="cod-color p-2 m-1" style="background-color: #009a21;"></div><span class="fw-bold">Aceleras tu crecimiento empresarial.</span>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <div class="cod-color p-2 m-1" style="background-color: #0073b8;"></div><span class="fw-bold">Reduces el esfuerzo humano.</span>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <div class="cod-color p-2 m-1" style="background-color: #ff0000;"></div><span class="fw-bold">Inviertes realmente muy poco.</span>
+                                </div>
+                           </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5 d-flex align-items-center justify-content-center"><img src="img/platica-3-soporte.png" style="width: 270px !important;" alt=""></div>
+                </div>
+            </div>
         </div>
         
     </section>
@@ -277,5 +351,10 @@
     }
     .bg-azul{
         background-color: #008ee3;
+    }
+    .cod-color {
+    width: 2px;
+    height: 2px;
+    border-radius: 16px;
     }
 </style>

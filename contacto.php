@@ -11,7 +11,7 @@
 <?php include('templates/header.php')?>
 <body>
     <section>
-        <div class="d-flex justify-content-center align-items-center" style="background-image: url(img/contacto/background-encabezado.jpg); height: 706px; background-size: cover; background-position: center center;">
+        <div class="d-flex justify-content-center align-items-center" style="background-image: url('img/contacto/background-encabezado.jpg'); height: 706px; background-size: cover; background-position: center center;">
             <div class="container ">
                 <h1 class="text-center text-white">CONTÁCTANOS</h1>
                 <div class="w-100 d-flex justify-content-center"><div class="bg-white" style="height: 3px; width: 17%;"></div></div>
@@ -59,7 +59,7 @@
                 </p>
                 <div class="w-100 text-center"><button type="submit" class="btn btn-vere mt-5">INGRESA AQUÍ</button></div>
             </div>
-            <div class="col-md-5" style="background-image: url(img/contacto/imagen-contacto.jpg); background-size: cover; background-position: center;">
+            <div class="col-md-5" style="background-image: url('img/contacto/imagen-contacto.jpg'); background-size: cover; background-position: center;">
                 
             </div>
         </div>
